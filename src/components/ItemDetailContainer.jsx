@@ -1,7 +1,7 @@
 // ItemDetailContainer.jsx
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { getProductoPorId } from "../data/productos";
+import { getProductoPorId } from "../data/producto";
 import ItemDetail from "./ItemDetail";
 
 function ItemDetailContainer() {
