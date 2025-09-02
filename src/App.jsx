@@ -13,7 +13,6 @@ function App() {
 export default App;
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ItemListContainer from "./components/ItemListContainer";
 import ItemDetailContainer from "./components/ItemDetailContainer";
 
 function App() {
