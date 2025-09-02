@@ -12,8 +12,6 @@ function ItemListContainer({ mensaje }) {
   );
 }
 
-export default ItemListContainer;
-
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getProductos } from "../data/productos";
